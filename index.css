@@ -2,43 +2,59 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: blue;
+    background-color: rgb(189,0,29);
     width: 5%;
     height: 100%;
     display: inline-block;
     opacity: 0.1;
-    transition: opacity 0.5s, width 1s;
+    transition: opacity 0.5s, width 1s, backgrround-color 2s;
 }
 
 #NonAcads {
     position: fixed; 
     top: 0;
     right: 0;
-    background-color: red;
+    background-color: rgb(26,0,222);
     width: 5%;
     height: 100%;
     display: inline-block;
     opacity: 0.1;
-    transition: opacity 0.5s, width 1s;
+    transition: opacity 0.5s, width 1s, background-color 2s;
 }
 
 #Acads:hover {
     opacity: 1;
-    width: 60%;
+    width: 20%;
+    background-color: rgb(253, 106, 128);
 }
 
 #NonAcads:hover {
     opacity: 1;
-    width: 60%;
+    width: 20%;
+    background-color: rgb(106, 165, 253);
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
+    margin-top: 50%;
     margin-bottom: auto;
-    width: inherit;
+    width: 0;
+    transition: width 1s;
 }
+
+div:hover > img {
+    width: 150;
+}
+
+h {
+    width: inherit;
+    text-align: center;
+    font-size: auto;
+    font-family: 'Century Gothic', 'Arial';
+}
+
+
 
 
