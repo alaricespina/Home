@@ -1,0 +1,44 @@
+#Acads {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    width: 5%;
+    height: 100%;
+    display: inline-block;
+    opacity: 0.1;
+    transition: opacity 0.5s, width 1s;
+}
+
+#NonAcads {
+    position: fixed; 
+    top: 0;
+    right: 0;
+    background-color: red;
+    width: 5%;
+    height: 100%;
+    display: inline-block;
+    opacity: 0.1;
+    transition: opacity 0.5s, width 1s;
+}
+
+#Acads:hover {
+    opacity: 1;
+    width: 60%;
+}
+
+#NonAcads:hover {
+    opacity: 1;
+    width: 60%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: inherit;
+}
+
+
